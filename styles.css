@@ -76,8 +76,10 @@ ul, ol {
     border-radius: 10px;
 }
 
-.preparation > h3 {
+.preparation > p {
     color: var(--Rose-800);
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .nutrition-facts {
