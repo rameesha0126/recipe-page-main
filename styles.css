@@ -17,6 +17,17 @@
 }
 
 :root {
+    /* fonts variables */
+    --font-family-headings: "Young Serif", serif;
+    --font-family-paragraphs: "Outfit", serif;
+
+    /* font sizes variables */
+    --font-size-xl: 2rem;
+    --font-size-lg: 1.5rem;
+    --font-size-md: 1.25rem;
+    --font-size-sm: 1rem;
+
+    /* colors variables */
     --White: hsl(0, 0%, 100%);
     --Stone-100: hsl(30, 54%, 90%);
     --Stone-150: hsl(30, 18%, 87%);
@@ -39,7 +50,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--Stone-100);
-    font-family: "Outfit";
+    font-family: var(--font-family-paragraphs);
 }
 
 .recipe-page-component {
@@ -61,6 +72,7 @@ section {
 
 h1, h2 {
     font-family: "Young Serif";
+    font-size: var(--font-size-xl);
 }    
 
 ul, ol {
@@ -119,6 +131,7 @@ span {
     .recipe-page-component {
         max-width: 720px;
         border-radius: 2rem;
+        margin: 5rem 0;
     }
 
     .hero-image > img {
